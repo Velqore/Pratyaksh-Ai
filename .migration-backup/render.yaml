@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: pratyaksh-forensic-ai
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    healthCheckPath: /api/ping
+    envVars:
+      - key: NODE_ENV
+        value: production
+    autoDeploy: false

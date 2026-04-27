@@ -1,0 +1,2354 @@
+[
+  {
+    "id": "manual_1774699955262",
+    "createdAt": "2026-03-28T12:12:35.262Z",
+    "sourceFileName": "101_1.tif",
+    "image": {
+      "width": 300,
+      "height": 300
+    },
+    "patternLabel": "radial_loop",
+    "points": [
+      {
+        "id": "pt_1774699699210_x82p",
+        "x": 266,
+        "y": 74,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699713543_k016",
+        "x": 244,
+        "y": 35,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699714983_4g8w",
+        "x": 253,
+        "y": 52,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699722908_o00c",
+        "x": 234,
+        "y": 21,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699724868_5fcx",
+        "x": 271,
+        "y": 88,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699726283_36mf",
+        "x": 278,
+        "y": 103,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699728107_c7zd",
+        "x": 280,
+        "y": 114,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699729456_9hm0",
+        "x": 284,
+        "y": 128,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699730508_hbyo",
+        "x": 288,
+        "y": 144,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699731816_vvu7",
+        "x": 290,
+        "y": 159,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699733581_e6v2",
+        "x": 297,
+        "y": 179,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699735341_mazs",
+        "x": 298,
+        "y": 193,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699736517_6d8k",
+        "x": 299,
+        "y": 204,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699740115_j0sd",
+        "x": 220,
+        "y": 4,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699748579_i4b1",
+        "x": 299,
+        "y": 213,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699750113_fny9",
+        "x": 299,
+        "y": 226,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699753379_117t",
+        "x": 159,
+        "y": 70,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699773757_915t",
+        "x": 195,
+        "y": 274,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774699783327_i5t0",
+        "x": 203,
+        "y": 287,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774699788277_u5wo",
+        "x": 68,
+        "y": 137,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774699792650_hkml",
+        "x": 184,
+        "y": 143,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774699796460_2x4n",
+        "x": 126,
+        "y": 63,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774699822782_ajsz",
+        "x": 191,
+        "y": 224,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774699854745_nkuj",
+        "x": 190,
+        "y": 184,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774699857780_kd7x",
+        "x": 238,
+        "y": 209,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774699873961_w54d",
+        "x": 289,
+        "y": 290,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699874966_puj2",
+        "x": 294,
+        "y": 284,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699876451_erys",
+        "x": 300,
+        "y": 273,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699878114_aeiz",
+        "x": 299,
+        "y": 252,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699879249_83u1",
+        "x": 299,
+        "y": 241,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774699880882_faw2",
+        "x": 281,
+        "y": 298,
+        "type": "ridge_ending"
+      }
+    ],
+    "identificationGuidance": "Mark ridge endings and bifurcations in clear ridge flow regions. Mark one core and visible delta points before assigning final pattern label.",
+    "analystNotes": "The image is a half image of an Radial Loop pattern with hidden delta "
+  },
+  {
+    "id": "manual_1774700164490",
+    "createdAt": "2026-03-28T12:16:04.490Z",
+    "sourceFileName": "101_2.tif",
+    "image": {
+      "width": 300,
+      "height": 300
+    },
+    "patternLabel": "radial_loop",
+    "points": [
+      {
+        "id": "pt_1774699973935_qx3i",
+        "x": 169,
+        "y": 254,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774699975330_8phk",
+        "x": 177,
+        "y": 257,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774699981018_4xzb",
+        "x": 165,
+        "y": 159,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774699982883_6urb",
+        "x": 161,
+        "y": 117,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774699985016_n91d",
+        "x": 121,
+        "y": 255,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774699988665_60y2",
+        "x": 217,
+        "y": 139,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774699993413_x3nj",
+        "x": 102,
+        "y": 39,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774699997092_gzt3",
+        "x": 42,
+        "y": 118,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774699999757_pbht",
+        "x": 169,
+        "y": 202,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700001535_6e4u",
+        "x": 139,
+        "y": 190,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700033127_3vnz",
+        "x": 233,
+        "y": 278,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700036778_n2o4",
+        "x": 278,
+        "y": 249,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700081819_rxx3",
+        "x": 273,
+        "y": 73,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700083175_ntb4",
+        "x": 277,
+        "y": 87,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700084878_f4tp",
+        "x": 267,
+        "y": 60,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700086285_n1am",
+        "x": 259,
+        "y": 43,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700087509_z6nn",
+        "x": 257,
+        "y": 32,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700088611_nwgy",
+        "x": 249,
+        "y": 20,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700090740_t2h0",
+        "x": 259,
+        "y": 110,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700093667_8tbh",
+        "x": 285,
+        "y": 133,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700094561_c0wv",
+        "x": 275,
+        "y": 110,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700097229_ur8h",
+        "x": 254,
+        "y": 231,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700132805_myq6",
+        "x": 220,
+        "y": 55,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700149987_an66",
+        "x": 228,
+        "y": 23,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700156073_rrjf",
+        "x": 255,
+        "y": 145,
+        "type": "ridge_ending"
+      }
+    ],
+    "identificationGuidance": "Mark ridge endings and bifurcations in clear ridge flow regions. Mark one core and visible delta points before assigning final pattern label.",
+    "analystNotes": ""
+  },
+  {
+    "id": "manual_1774700582133",
+    "createdAt": "2026-03-28T12:23:02.133Z",
+    "sourceFileName": "101_4.tif",
+    "image": {
+      "width": 300,
+      "height": 300
+    },
+    "patternLabel": "radial_loop",
+    "points": [
+      {
+        "id": "pt_1774700445721_w7jq",
+        "x": 108,
+        "y": 176,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700448272_rrvj",
+        "x": 58,
+        "y": 96,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700454211_a7ke",
+        "x": 88,
+        "y": 248,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700455486_9oyr",
+        "x": 170,
+        "y": 243,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700458636_n26v",
+        "x": 116,
+        "y": 265,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700464886_teds",
+        "x": 170,
+        "y": 201,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700479309_zlw5",
+        "x": 179,
+        "y": 121,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700483274_al1t",
+        "x": 264,
+        "y": 144,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700488817_jx4n",
+        "x": 225,
+        "y": 254,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700495033_6ugw",
+        "x": 118,
+        "y": 221,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700524513_fqqz",
+        "x": 229,
+        "y": 54,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700525455_suia",
+        "x": 235,
+        "y": 70,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700528250_o9uw",
+        "x": 259,
+        "y": 104,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700529293_mn2f",
+        "x": 258,
+        "y": 111,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700530525_0pvn",
+        "x": 265,
+        "y": 128,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700532325_bvra",
+        "x": 278,
+        "y": 164,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700534409_dv7t",
+        "x": 281,
+        "y": 179,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700535724_l0cs",
+        "x": 280,
+        "y": 191,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700538346_pzzs",
+        "x": 280,
+        "y": 207,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700539492_web8",
+        "x": 284,
+        "y": 222,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700540807_3q7a",
+        "x": 286,
+        "y": 235,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700542774_s8st",
+        "x": 294,
+        "y": 255,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700544717_lkb1",
+        "x": 294,
+        "y": 269,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700549145_3fri",
+        "x": 293,
+        "y": 281,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700550239_e2fd",
+        "x": 290,
+        "y": 289,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700551353_acx7",
+        "x": 285,
+        "y": 294,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700554226_gxh9",
+        "x": 277,
+        "y": 298,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700558600_y2kc",
+        "x": 89,
+        "y": 103,
+        "type": "ridge_ending"
+      }
+    ],
+    "identificationGuidance": "Mark ridge endings and bifurcations in clear ridge flow regions. Mark one core and visible delta points before assigning final pattern label.",
+    "analystNotes": ""
+  },
+  {
+    "id": "manual_1774700779955",
+    "createdAt": "2026-03-28T12:26:19.955Z",
+    "sourceFileName": "101_5.tif",
+    "image": {
+      "width": 300,
+      "height": 300
+    },
+    "patternLabel": "radial_loop",
+    "points": [
+      {
+        "id": "pt_1774700608717_w21g",
+        "x": 69,
+        "y": 118,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700614903_3k8l",
+        "x": 190,
+        "y": 198,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700616019_3u55",
+        "x": 166,
+        "y": 183,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700619367_rn5i",
+        "x": 243,
+        "y": 138,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700622280_77wm",
+        "x": 179,
+        "y": 113,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700627677_cktc",
+        "x": 26,
+        "y": 117,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700633631_lorl",
+        "x": 75,
+        "y": 270,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700638067_avkd",
+        "x": 33,
+        "y": 187,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700642627_vpvn",
+        "x": 146,
+        "y": 254,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700649809_vzsw",
+        "x": 239,
+        "y": 179,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700657477_3zoz",
+        "x": 124,
+        "y": 39,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700663688_hl2i",
+        "x": 161,
+        "y": 48,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700669725_jj3i",
+        "x": 207,
+        "y": 32,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700690350_ah26",
+        "x": 259,
+        "y": 279,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700694885_c01r",
+        "x": 196,
+        "y": 249,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774700695738_3tus",
+        "x": 203,
+        "y": 255,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774700703114_ebni",
+        "x": 126,
+        "y": 153,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700708614_cxe7",
+        "x": 50,
+        "y": 260,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700714984_x0al",
+        "x": 285,
+        "y": 238,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700716659_xb0x",
+        "x": 281,
+        "y": 273,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700728110_dxey",
+        "x": 274,
+        "y": 286,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700739859_5slf",
+        "x": 254,
+        "y": 63,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700741072_ha8f",
+        "x": 250,
+        "y": 50,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700742034_k15g",
+        "x": 244,
+        "y": 39,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700744410_5rai",
+        "x": 261,
+        "y": 73,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700745603_zybe",
+        "x": 265,
+        "y": 88,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700746825_juj7",
+        "x": 271,
+        "y": 102,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700747787_dpu6",
+        "x": 276,
+        "y": 117,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700749883_q8x0",
+        "x": 297,
+        "y": 151,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700753583_9hp5",
+        "x": 286,
+        "y": 152,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700754691_wb8c",
+        "x": 290,
+        "y": 162,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700755807_3jah",
+        "x": 293,
+        "y": 178,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700758865_8mj6",
+        "x": 299,
+        "y": 200,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700760557_n52e",
+        "x": 299,
+        "y": 211,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700763756_oal6",
+        "x": 299,
+        "y": 226,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700765331_7kre",
+        "x": 299,
+        "y": 238,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700766657_t8rp",
+        "x": 297,
+        "y": 254,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700768031_i418",
+        "x": 287,
+        "y": 254,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700769406_movu",
+        "x": 275,
+        "y": 254,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700770556_q2gm",
+        "x": 265,
+        "y": 254,
+        "type": "ridge_ending"
+      }
+    ],
+    "identificationGuidance": "Mark ridge endings and bifurcations in clear ridge flow regions. Mark one core and visible delta points before assigning final pattern label.",
+    "analystNotes": ""
+  },
+  {
+    "id": "manual_1774701015417",
+    "createdAt": "2026-03-28T12:30:15.417Z",
+    "sourceFileName": "101_6.tif",
+    "image": {
+      "width": 300,
+      "height": 300
+    },
+    "patternLabel": "radial_loop",
+    "points": [
+      {
+        "id": "pt_1774700843459_n6th",
+        "x": 182,
+        "y": 107,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700845478_vayc",
+        "x": 194,
+        "y": 191,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700846843_03nf",
+        "x": 168,
+        "y": 178,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700850596_ukjq",
+        "x": 147,
+        "y": 247,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700854399_qbrk",
+        "x": 79,
+        "y": 262,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700857045_sssn",
+        "x": 69,
+        "y": 110,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700858281_os25",
+        "x": 27,
+        "y": 111,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700873177_ua8b",
+        "x": 126,
+        "y": 31,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700875695_xvun",
+        "x": 238,
+        "y": 125,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700888528_9qf8",
+        "x": 216,
+        "y": 9,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700906418_jahn",
+        "x": 192,
+        "y": 148,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700922309_f0ft",
+        "x": 198,
+        "y": 239,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774700923584_syav",
+        "x": 209,
+        "y": 245,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774700925814_gy67",
+        "x": 210,
+        "y": 233,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774700935857_v3wk",
+        "x": 283,
+        "y": 295,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700937150_0py6",
+        "x": 293,
+        "y": 289,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700939059_hhdt",
+        "x": 281,
+        "y": 261,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700940424_z8e8",
+        "x": 273,
+        "y": 284,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700944240_f6rl",
+        "x": 298,
+        "y": 184,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700945495_zo33",
+        "x": 298,
+        "y": 195,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700948582_vryt",
+        "x": 299,
+        "y": 211,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700951814_5ff2",
+        "x": 299,
+        "y": 226,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700954688_3dp9",
+        "x": 298,
+        "y": 243,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700956574_2br5",
+        "x": 299,
+        "y": 258,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700958388_0yfn",
+        "x": 299,
+        "y": 280,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700961755_9k2u",
+        "x": 299,
+        "y": 173,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700963965_lqcq",
+        "x": 299,
+        "y": 159,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700964868_p825",
+        "x": 297,
+        "y": 148,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700969609_pqb6",
+        "x": 287,
+        "y": 125,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700974717_uswg",
+        "x": 295,
+        "y": 118,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700975731_y7uh",
+        "x": 282,
+        "y": 99,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700976694_f85b",
+        "x": 279,
+        "y": 85,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700977987_7c9g",
+        "x": 279,
+        "y": 72,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700978752_hbk3",
+        "x": 273,
+        "y": 60,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700979824_eizw",
+        "x": 267,
+        "y": 45,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700980678_79mz",
+        "x": 262,
+        "y": 35,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700987244_mdiu",
+        "x": 150,
+        "y": 38,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700992049_ag30",
+        "x": 55,
+        "y": 249,
+        "type": "ridge_ending"
+      }
+    ],
+    "identificationGuidance": "Mark ridge endings and bifurcations in clear ridge flow regions. Mark one core and visible delta points before assigning final pattern label.",
+    "analystNotes": ""
+  },
+  {
+    "id": "manual_1774701017405",
+    "createdAt": "2026-03-28T12:30:17.405Z",
+    "sourceFileName": "101_6.tif",
+    "image": {
+      "width": 300,
+      "height": 300
+    },
+    "patternLabel": "radial_loop",
+    "points": [
+      {
+        "id": "pt_1774700843459_n6th",
+        "x": 182,
+        "y": 107,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700845478_vayc",
+        "x": 194,
+        "y": 191,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700846843_03nf",
+        "x": 168,
+        "y": 178,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700850596_ukjq",
+        "x": 147,
+        "y": 247,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700854399_qbrk",
+        "x": 79,
+        "y": 262,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700857045_sssn",
+        "x": 69,
+        "y": 110,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700858281_os25",
+        "x": 27,
+        "y": 111,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700873177_ua8b",
+        "x": 126,
+        "y": 31,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700875695_xvun",
+        "x": 238,
+        "y": 125,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700888528_9qf8",
+        "x": 216,
+        "y": 9,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700906418_jahn",
+        "x": 192,
+        "y": 148,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700922309_f0ft",
+        "x": 198,
+        "y": 239,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774700923584_syav",
+        "x": 209,
+        "y": 245,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774700925814_gy67",
+        "x": 210,
+        "y": 233,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774700935857_v3wk",
+        "x": 283,
+        "y": 295,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700937150_0py6",
+        "x": 293,
+        "y": 289,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700939059_hhdt",
+        "x": 281,
+        "y": 261,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700940424_z8e8",
+        "x": 273,
+        "y": 284,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700944240_f6rl",
+        "x": 298,
+        "y": 184,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700945495_zo33",
+        "x": 298,
+        "y": 195,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700948582_vryt",
+        "x": 299,
+        "y": 211,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700951814_5ff2",
+        "x": 299,
+        "y": 226,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700954688_3dp9",
+        "x": 298,
+        "y": 243,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700956574_2br5",
+        "x": 299,
+        "y": 258,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700958388_0yfn",
+        "x": 299,
+        "y": 280,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700961755_9k2u",
+        "x": 299,
+        "y": 173,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700963965_lqcq",
+        "x": 299,
+        "y": 159,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700964868_p825",
+        "x": 297,
+        "y": 148,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700969609_pqb6",
+        "x": 287,
+        "y": 125,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774700974717_uswg",
+        "x": 295,
+        "y": 118,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700975731_y7uh",
+        "x": 282,
+        "y": 99,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700976694_f85b",
+        "x": 279,
+        "y": 85,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700977987_7c9g",
+        "x": 279,
+        "y": 72,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700978752_hbk3",
+        "x": 273,
+        "y": 60,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700979824_eizw",
+        "x": 267,
+        "y": 45,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700980678_79mz",
+        "x": 262,
+        "y": 35,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700987244_mdiu",
+        "x": 150,
+        "y": 38,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774700992049_ag30",
+        "x": 55,
+        "y": 249,
+        "type": "ridge_ending"
+      }
+    ],
+    "identificationGuidance": "Mark ridge endings and bifurcations in clear ridge flow regions. Mark one core and visible delta points before assigning final pattern label.",
+    "analystNotes": ""
+  },
+  {
+    "id": "manual_1774702639960",
+    "createdAt": "2026-03-28T12:57:19.960Z",
+    "sourceFileName": "101_1.tif",
+    "image": {
+      "width": 300,
+      "height": 300
+    },
+    "patternLabel": "radial_loop",
+    "points": [
+      {
+        "id": "pt_1774701780933_xvbq",
+        "x": 183,
+        "y": 140,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774701785791_xy0c",
+        "x": 188,
+        "y": 224,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774701789866_5dra",
+        "x": 129,
+        "y": 62,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774701794082_hu4h",
+        "x": 67,
+        "y": 137,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774701796531_rgdx",
+        "x": 242,
+        "y": 166,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774701800815_n5zn",
+        "x": 190,
+        "y": 182,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774701809089_8z2m",
+        "x": 145,
+        "y": 278,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774701865300_6v35",
+        "x": 198,
+        "y": 274,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774701866850_ut6j",
+        "x": 203,
+        "y": 285,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774701948925_p8ul",
+        "x": 210,
+        "y": 186,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774701952350_w28i",
+        "x": 178,
+        "y": 101,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774701968490_i6el",
+        "x": 139,
+        "y": 218,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774701999436_lfdl",
+        "x": 121,
+        "y": 184,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774702030742_4emk",
+        "x": 213,
+        "y": 275,
+        "type": "lake"
+      },
+      {
+        "id": "pt_1774702088687_727s",
+        "x": 247,
+        "y": 84,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774702185468_fvqt",
+        "x": 215,
+        "y": 178,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774702291442_ljnx",
+        "x": 212,
+        "y": 54,
+        "type": "island"
+      },
+      {
+        "id": "pt_1774702334705_1o92",
+        "x": 51,
+        "y": 272,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774702343612_ddup",
+        "x": 158,
+        "y": 70,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774702351577_3f15",
+        "x": 30,
+        "y": 127,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774702429279_z42h",
+        "x": 242,
+        "y": 199,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774702436978_hgb7",
+        "x": 163,
+        "y": 209,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774702443768_uplr",
+        "x": 140,
+        "y": 181,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774702474390_i0qs",
+        "x": 213,
+        "y": 89,
+        "type": "crossover"
+      },
+      {
+        "id": "pt_1774702476290_wq53",
+        "x": 203,
+        "y": 73,
+        "type": "crossover"
+      },
+      {
+        "id": "pt_1774702510209_c01n",
+        "x": 256,
+        "y": 174,
+        "type": "crossover"
+      },
+      {
+        "id": "pt_1774702520497_pabs",
+        "x": 228,
+        "y": 53,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774702602378_fool",
+        "x": 167,
+        "y": 237,
+        "type": "bridge"
+      }
+    ],
+    "identificationGuidance": "Mark ridge endings and bifurcations in clear ridge flow regions. Mark one core and visible delta points before assigning final pattern label.",
+    "analystNotes": "The image is a half Fingerprint Image  containing marked minutiaes with a radial loop pattern   the delta is not visible in the image "
+  },
+  {
+    "id": "manual_1774705037642",
+    "createdAt": "2026-03-28T13:37:17.642Z",
+    "sourceFileName": "101_2.tif",
+    "image": {
+      "width": 300,
+      "height": 300
+    },
+    "patternLabel": "radial_loop",
+    "points": [
+      {
+        "id": "pt_1774703894202_r205",
+        "x": 101,
+        "y": 39,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774703898361_34y0",
+        "x": 216,
+        "y": 54,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774703900853_p68v",
+        "x": 158,
+        "y": 117,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774703905528_faz3",
+        "x": 124,
+        "y": 252,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774703912100_midb",
+        "x": 167,
+        "y": 160,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774703915859_ud8y",
+        "x": 43,
+        "y": 116,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774703924585_n1uw",
+        "x": 163,
+        "y": 200,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774703926682_efn8",
+        "x": 140,
+        "y": 190,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774703964803_gd9q",
+        "x": 234,
+        "y": 275,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774703973094_koqu",
+        "x": 218,
+        "y": 137,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774703976585_wusn",
+        "x": 280,
+        "y": 250,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774704011592_pvob",
+        "x": 153,
+        "y": 78,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774704013799_8ddg",
+        "x": 198,
+        "y": 93,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774704020549_eqgn",
+        "x": 98,
+        "y": 163,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774704024641_evyz",
+        "x": 117,
+        "y": 198,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774704036115_9r7e",
+        "x": 186,
+        "y": 163,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774704102541_i58z",
+        "x": 188,
+        "y": 152,
+        "type": "lake"
+      },
+      {
+        "id": "pt_1774704108716_xcau",
+        "x": 190,
+        "y": 250,
+        "type": "lake"
+      },
+      {
+        "id": "pt_1774704125889_mzz0",
+        "x": 173,
+        "y": 253,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774704138013_1j0g",
+        "x": 252,
+        "y": 236,
+        "type": "spur"
+      },
+      {
+        "id": "pt_1774704156911_18v4",
+        "x": 254,
+        "y": 273,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774704169534_zo3g",
+        "x": 219,
+        "y": 176,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774704176125_dmgr",
+        "x": 264,
+        "y": 141,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774704194281_1kiz",
+        "x": 38,
+        "y": 263,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774704199773_b5yg",
+        "x": 132,
+        "y": 47,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774704205030_l8wz",
+        "x": 200,
+        "y": 27,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774704207570_fqhp",
+        "x": 222,
+        "y": 62,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774704253601_j1ml",
+        "x": 196,
+        "y": 135,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774704261251_c81n",
+        "x": 230,
+        "y": 144,
+        "type": "crossover"
+      },
+      {
+        "id": "pt_1774704316193_a5ht",
+        "x": 209,
+        "y": 197,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774704357008_186q",
+        "x": 258,
+        "y": 156,
+        "type": "lake"
+      },
+      {
+        "id": "pt_1774704386813_nrxn",
+        "x": 282,
+        "y": 120,
+        "type": "dot"
+      },
+      {
+        "id": "pt_1774704990009_uj6c",
+        "x": 273,
+        "y": 179,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774704997964_d2yq",
+        "x": 240,
+        "y": 193,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774705031451_bpxb",
+        "x": 166,
+        "y": 290,
+        "type": "bifurcation"
+      }
+    ],
+    "identificationGuidance": "Mark ridge endings and bifurcations in clear ridge flow regions. Mark one core and visible delta points before assigning final pattern label.",
+    "analystNotes": ""
+  },
+  {
+    "id": "manual_1774706695919",
+    "createdAt": "2026-03-28T14:04:55.919Z",
+    "sourceFileName": "00002437_K_500_plain_05.png",
+    "image": {
+      "width": 248,
+      "height": 319
+    },
+    "patternLabel": "ulnar_loop",
+    "points": [
+      {
+        "id": "pt_1774705963227_awur",
+        "x": 156,
+        "y": 157,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774705969182_dqwh",
+        "x": 144,
+        "y": 229,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774705979290_memh",
+        "x": 138,
+        "y": 155,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774705988106_vzin",
+        "x": 178,
+        "y": 262,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706000583_2vo1",
+        "x": 100,
+        "y": 113,
+        "type": "lake"
+      },
+      {
+        "id": "pt_1774706006322_j5kk",
+        "x": 77,
+        "y": 96,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706021843_3yv8",
+        "x": 123,
+        "y": 61,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774706027695_ge9r",
+        "x": 103,
+        "y": 83,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706051693_79m9",
+        "x": 182,
+        "y": 65,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706057799_2wgl",
+        "x": 204,
+        "y": 251,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706062942_9tmj",
+        "x": 87,
+        "y": 292,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706073816_rf69",
+        "x": 83,
+        "y": 305,
+        "type": "spur"
+      },
+      {
+        "id": "pt_1774706184605_t2iw",
+        "x": 172,
+        "y": 142,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706216560_ocii",
+        "x": 90,
+        "y": 161,
+        "type": "crossover"
+      },
+      {
+        "id": "pt_1774706225877_ewvz",
+        "x": 89,
+        "y": 141,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706233588_cs1w",
+        "x": 67,
+        "y": 127,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774706238384_yv2e",
+        "x": 184,
+        "y": 104,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774706249799_bs87",
+        "x": 113,
+        "y": 278,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706251328_jov7",
+        "x": 149,
+        "y": 267,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706262200_ulbr",
+        "x": 170,
+        "y": 208,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706263647_p686",
+        "x": 158,
+        "y": 179,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706268772_7lhf",
+        "x": 140,
+        "y": 188,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706270080_yfvn",
+        "x": 147,
+        "y": 182,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706343190_l4l6",
+        "x": 199,
+        "y": 84,
+        "type": "opposed_bifurcation"
+      },
+      {
+        "id": "pt_1774706386784_pii4",
+        "x": 57,
+        "y": 66,
+        "type": "crossover"
+      },
+      {
+        "id": "pt_1774706401208_8udj",
+        "x": 82,
+        "y": 245,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774706414532_8qmo",
+        "x": 172,
+        "y": 79,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774706425416_yata",
+        "x": 138,
+        "y": 79,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706478077_q5dh",
+        "x": 105,
+        "y": 92,
+        "type": "lake"
+      },
+      {
+        "id": "pt_1774706550919_wwst",
+        "x": 105,
+        "y": 166,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706581829_k522",
+        "x": 224,
+        "y": 289,
+        "type": "lake"
+      },
+      {
+        "id": "pt_1774706623871_5xqw",
+        "x": 59,
+        "y": 185,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774706633619_vuj7",
+        "x": 55,
+        "y": 183,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706640508_jf46",
+        "x": 216,
+        "y": 156,
+        "type": "bridge"
+      }
+    ],
+    "identificationGuidance": "Mark ridge endings and bifurcations in clear ridge flow regions. Mark one core and visible delta points before assigning final pattern label.",
+    "analystNotes": ""
+  },
+  {
+    "id": "manual_1774706732327",
+    "createdAt": "2026-03-28T14:05:32.327Z",
+    "sourceFileName": "00002437_K_500_plain_05.png",
+    "image": {
+      "width": 248,
+      "height": 319
+    },
+    "patternLabel": "ulnar_loop",
+    "points": [
+      {
+        "id": "pt_1774705963227_awur",
+        "x": 156,
+        "y": 157,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774705969182_dqwh",
+        "x": 144,
+        "y": 229,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774705979290_memh",
+        "x": 138,
+        "y": 155,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774705988106_vzin",
+        "x": 178,
+        "y": 262,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706000583_2vo1",
+        "x": 100,
+        "y": 113,
+        "type": "lake"
+      },
+      {
+        "id": "pt_1774706006322_j5kk",
+        "x": 77,
+        "y": 96,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706021843_3yv8",
+        "x": 123,
+        "y": 61,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774706027695_ge9r",
+        "x": 103,
+        "y": 83,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706051693_79m9",
+        "x": 182,
+        "y": 65,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706057799_2wgl",
+        "x": 204,
+        "y": 251,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706062942_9tmj",
+        "x": 87,
+        "y": 292,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706073816_rf69",
+        "x": 83,
+        "y": 305,
+        "type": "spur"
+      },
+      {
+        "id": "pt_1774706184605_t2iw",
+        "x": 172,
+        "y": 142,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706216560_ocii",
+        "x": 90,
+        "y": 161,
+        "type": "crossover"
+      },
+      {
+        "id": "pt_1774706225877_ewvz",
+        "x": 89,
+        "y": 141,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706233588_cs1w",
+        "x": 67,
+        "y": 127,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774706238384_yv2e",
+        "x": 184,
+        "y": 104,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774706249799_bs87",
+        "x": 113,
+        "y": 278,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706251328_jov7",
+        "x": 149,
+        "y": 267,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706262200_ulbr",
+        "x": 170,
+        "y": 208,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706263647_p686",
+        "x": 158,
+        "y": 179,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706268772_7lhf",
+        "x": 140,
+        "y": 188,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706270080_yfvn",
+        "x": 147,
+        "y": 182,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706343190_l4l6",
+        "x": 199,
+        "y": 84,
+        "type": "opposed_bifurcation"
+      },
+      {
+        "id": "pt_1774706386784_pii4",
+        "x": 57,
+        "y": 66,
+        "type": "crossover"
+      },
+      {
+        "id": "pt_1774706401208_8udj",
+        "x": 82,
+        "y": 245,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774706414532_8qmo",
+        "x": 172,
+        "y": 79,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774706425416_yata",
+        "x": 138,
+        "y": 79,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706478077_q5dh",
+        "x": 105,
+        "y": 92,
+        "type": "lake"
+      },
+      {
+        "id": "pt_1774706550919_wwst",
+        "x": 105,
+        "y": 166,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774706581829_k522",
+        "x": 224,
+        "y": 289,
+        "type": "lake"
+      },
+      {
+        "id": "pt_1774706623871_5xqw",
+        "x": 59,
+        "y": 185,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774706633619_vuj7",
+        "x": 55,
+        "y": 183,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774706640508_jf46",
+        "x": 216,
+        "y": 156,
+        "type": "bridge"
+      }
+    ],
+    "identificationGuidance": "Mark ridge endings and bifurcations in clear ridge flow regions. Mark one core and visible delta points before assigning final pattern label.",
+    "analystNotes": ""
+  },
+  {
+    "id": "manual_1774708911390",
+    "createdAt": "2026-03-28T14:41:51.390Z",
+    "sourceFileName": "00002457_K_500_plain_04.png",
+    "image": {
+      "width": 248,
+      "height": 319
+    },
+    "patternLabel": "ulnar_loop",
+    "points": [
+      {
+        "id": "pt_1774708702910_rz6u",
+        "x": 36,
+        "y": 256,
+        "type": "delta"
+      },
+      {
+        "id": "pt_1774708716808_6d5t",
+        "x": 86,
+        "y": 286,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774708719342_ck97",
+        "x": 73,
+        "y": 300,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774708726692_ium6",
+        "x": 42,
+        "y": 121,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774708730116_q4eo",
+        "x": 134,
+        "y": 75,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774708739491_enfz",
+        "x": 108,
+        "y": 240,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774708752689_z21q",
+        "x": 116,
+        "y": 172,
+        "type": "core"
+      },
+      {
+        "id": "pt_1774708899666_hoi7",
+        "x": 105,
+        "y": 161,
+        "type": "bridge"
+      }
+    ],
+    "identificationGuidance": "Mark ridge endings and bifurcations in clear ridge flow regions. Mark one core and visible delta points before assigning final pattern label.",
+    "analystNotes": ""
+  },
+  {
+    "id": "manual_1774860491496",
+    "createdAt": "2026-03-30T08:48:11.496Z",
+    "sourceFileName": "00002466_K_500_plain_02.png",
+    "image": {
+      "width": 248,
+      "height": 319
+    },
+    "patternLabel": "plain_arch",
+    "points": [
+      {
+        "id": "pt_1774860178437_sttw",
+        "x": 202,
+        "y": 287,
+        "type": "island"
+      },
+      {
+        "id": "pt_1774860185791_drt8",
+        "x": 149,
+        "y": 169,
+        "type": "island"
+      },
+      {
+        "id": "pt_1774860191066_8yj7",
+        "x": 149,
+        "y": 181,
+        "type": "island"
+      },
+      {
+        "id": "pt_1774860193720_b5tt",
+        "x": 129,
+        "y": 205,
+        "type": "island"
+      },
+      {
+        "id": "pt_1774860202258_v16j",
+        "x": 92,
+        "y": 66,
+        "type": "island"
+      },
+      {
+        "id": "pt_1774860204554_j1n4",
+        "x": 108,
+        "y": 75,
+        "type": "island"
+      },
+      {
+        "id": "pt_1774860207138_6jqh",
+        "x": 156,
+        "y": 64,
+        "type": "island"
+      },
+      {
+        "id": "pt_1774860210856_6tpg",
+        "x": 213,
+        "y": 79,
+        "type": "island"
+      },
+      {
+        "id": "pt_1774860214447_37tm",
+        "x": 209,
+        "y": 133,
+        "type": "island"
+      },
+      {
+        "id": "pt_1774860232445_lspr",
+        "x": 95,
+        "y": 140,
+        "type": "spur"
+      },
+      {
+        "id": "pt_1774860274054_79zo",
+        "x": 213,
+        "y": 230,
+        "type": "double_bifurcation"
+      },
+      {
+        "id": "pt_1774860282558_k1v2",
+        "x": 103,
+        "y": 132,
+        "type": "double_bifurcation"
+      },
+      {
+        "id": "pt_1774860292685_vw70",
+        "x": 93,
+        "y": 285,
+        "type": "double_bifurcation"
+      },
+      {
+        "id": "pt_1774860295937_tsvg",
+        "x": 80,
+        "y": 277,
+        "type": "double_bifurcation"
+      },
+      {
+        "id": "pt_1774860298411_f88o",
+        "x": 99,
+        "y": 265,
+        "type": "double_bifurcation"
+      },
+      {
+        "id": "pt_1774860311868_6rsc",
+        "x": 114,
+        "y": 251,
+        "type": "trifurcation"
+      },
+      {
+        "id": "pt_1774860347787_lqm0",
+        "x": 91,
+        "y": 240,
+        "type": "bridge"
+      },
+      {
+        "id": "pt_1774860358896_5y3w",
+        "x": 53,
+        "y": 294,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774860376661_ee7h",
+        "x": 201,
+        "y": 93,
+        "type": "island"
+      },
+      {
+        "id": "pt_1774860386176_ah2h",
+        "x": 119,
+        "y": 145,
+        "type": "island"
+      },
+      {
+        "id": "pt_1774860394200_09vi",
+        "x": 190,
+        "y": 94,
+        "type": "bifurcation"
+      },
+      {
+        "id": "pt_1774860472946_zkm1",
+        "x": 231,
+        "y": 256,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774860474777_xvxa",
+        "x": 137,
+        "y": 218,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774860477117_xcmc",
+        "x": 150,
+        "y": 282,
+        "type": "ridge_ending"
+      },
+      {
+        "id": "pt_1774860479343_yuck",
+        "x": 207,
+        "y": 288,
+        "type": "ridge_ending"
+      }
+    ],
+    "identificationGuidance": "Mark ridge endings and bifurcations in clear ridge flow regions. Mark one core and visible delta points before assigning final pattern label. there is no Core and Delta in both Tented and Plain Arch Pattern ",
+    "analystNotes": ""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "train_1774551995547_o44i1u",
+    "startTime": "2026-03-26T19:06:35.547Z",
+    "status": "completed",
+    "progress": 100,
+    "message": "Training completed successfully",
+    "logsPath": "D:\\Pratyaksh-main\\server\\training_logs\\train_1774551995547_o44i1u_training.log",
+    "endTime": "2026-03-26T19:06:36.559Z"
+  },
+  {
+    "id": "train_1774552036773_6qjuy5",
+    "startTime": "2026-03-26T19:07:16.773Z",
+    "status": "completed",
+    "progress": 100,
+    "message": "Training completed successfully",
+    "logsPath": "D:\\Pratyaksh-main\\server\\training_logs\\train_1774552036773_6qjuy5_training.log",
+    "endTime": "2026-03-26T19:07:17.834Z"
+  },
+  {
+    "id": "train_1774552124125_0bfgv0",
+    "startTime": "2026-03-26T19:08:44.125Z",
+    "status": "completed",
+    "progress": 100,
+    "message": "Training completed successfully",
+    "logsPath": "D:\\Pratyaksh-main\\server\\training_logs\\train_1774552124125_0bfgv0_training.log",
+    "endTime": "2026-03-26T19:08:45.373Z"
+  },
+  {
+    "id": "train_1774552152757_d9z17h",
+    "startTime": "2026-03-26T19:09:12.757Z",
+    "status": "completed",
+    "progress": 100,
+    "message": "Training completed successfully",
+    "logsPath": "D:\\Pratyaksh-main\\server\\training_logs\\train_1774552152757_d9z17h_training.log",
+    "endTime": "2026-03-26T19:09:13.840Z"
+  },
+  {
+    "id": "train_1774697734541_tjrudo",
+    "startTime": "2026-03-28T11:35:34.541Z",
+    "status": "completed",
+    "progress": 100,
+    "message": "Training completed successfully",
+    "logsPath": "D:\\Pratyaksh-main\\server\\training_logs\\train_1774697734541_tjrudo_training.log",
+    "endTime": "2026-03-28T11:36:01.696Z"
+  }
+]

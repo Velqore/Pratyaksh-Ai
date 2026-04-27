@@ -1,0 +1,568 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Tailwind CSS theme
+   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
+   * A different format will require also updating the theme in tailwind.config.ts.
+  */
+  :root {
+    /* ChatGPT-like Light Theme */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Dark Cyberpunk Forensic Theme Colors */
+    --forensic-primary: 189 80% 35%; /* Darker Neon Cyan */
+    --forensic-secondary: 320 70% 40%; /* Darker Hot Pink */
+    --forensic-accent: 195 90% 30%; /* Darker Electric Cyan */
+    --forensic-accent-light: 195 70% 50%; /* Muted Electric Cyan */
+    --forensic-dark: 240 100% 1%; /* Absolute Black */
+    --forensic-dark-secondary: 240 80% 2%; /* Near Black */
+    --forensic-surface: 240 50% 4%; /* Very Dark Surface */
+    --forensic-surface-secondary: 240 40% 6%; /* Dark Secondary Surface */
+    --forensic-border: 189 60% 12%; /* Subtle Glowing Border */
+    --forensic-border-light: 189 50% 18%; /* Muted Glowing Border */
+    --forensic-text: 189 80% 75%; /* Softer Cyan Text */
+    --forensic-text-secondary: 189 40% 55%; /* Muted Cyan Text */
+    --forensic-text-muted: 189 25% 35%; /* Dark Cyan Text */
+    --forensic-glow: 189 80% 35%; /* Subtle Cyan Glow */
+    --forensic-warning: 45 80% 45%; /* Darker Neon Orange */
+    --forensic-success: 120 70% 35%; /* Darker Neon Green */
+    --forensic-error: 350 80% 45%; /* Darker Neon Red */
+  }
+
+  .dark {
+    /* ChatGPT-like Dark Theme */
+    --background: 0 0% 6.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 6.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 6.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 221.2 83.2% 53.3%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Dark Cyberpunk Forensic Theme Colors - Enhanced Dark Mode */
+    --forensic-primary: 189 70% 40%; /* Muted Neon Cyan */
+    --forensic-secondary: 320 60% 45%; /* Muted Hot Pink */
+    --forensic-accent: 195 80% 35%; /* Subdued Electric Cyan */
+    --forensic-accent-light: 195 60% 55%; /* Soft Electric Cyan */
+    --forensic-dark: 240 100% 0.5%; /* Pure Black */
+    --forensic-dark-secondary: 240 80% 1.5%; /* Deep Black */
+    --forensic-surface: 240 60% 3%; /* Very Dark Surface */
+    --forensic-surface-secondary: 240 50% 5%; /* Dark Secondary Surface */
+    --forensic-border: 189 80% 15%; /* Subtle Cyan Border */
+    --forensic-border-light: 189 60% 22%; /* Muted Cyan Border */
+    --forensic-text: 189 70% 80%; /* Softer Cyan Text */
+    --forensic-text-secondary: 189 50% 65%; /* Balanced Cyan Text */
+    --forensic-text-muted: 189 35% 45%; /* Muted Cyan Text */
+    --forensic-glow: 189 70% 40%; /* Subtle Cyan Glow */
+    --forensic-warning: 45 70% 50%; /* Muted Orange */
+    --forensic-success: 120 80% 40%; /* Muted Green */
+    --forensic-error: 350 70% 50%; /* Muted Red */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Force dark mode by default */
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+
+  /* Force dark theme colors on html and body */
+  html.dark {
+    background-color: hsl(222.2 84% 4.9%);
+    color: hsl(210 40% 98%);
+  }
+
+  html.dark body {
+    background-color: hsl(222.2 84% 4.9%);
+    color: hsl(210 40% 98%);
+  }
+}
+
+/* Cyberpunk Effects */
+@layer utilities {
+  .cyberpunk-grid {
+    background-image:
+      linear-gradient(rgba(0, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  .neon-glow {
+    box-shadow:
+      0 0 5px hsl(var(--forensic-accent)),
+      0 0 10px hsl(var(--forensic-accent)),
+      0 0 15px hsl(var(--forensic-accent)),
+      0 0 20px hsl(var(--forensic-accent));
+  }
+
+  .neon-text {
+    color: hsl(var(--forensic-accent));
+    text-shadow:
+      0 0 5px hsl(var(--forensic-accent)),
+      0 0 10px hsl(var(--forensic-accent)),
+      0 0 15px hsl(var(--forensic-accent));
+  }
+
+  .cyber-border {
+    position: relative;
+    border: 1px solid hsl(var(--forensic-accent) / 0.3);
+  }
+
+  .cyber-border::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    background: linear-gradient(
+      45deg,
+      hsl(var(--forensic-accent)) 0%,
+      transparent 50%,
+      hsl(var(--forensic-secondary)) 100%
+    );
+    z-index: -1;
+    opacity: 0.7;
+    border-radius: inherit;
+  }
+
+  .hologram {
+    background: linear-gradient(
+      45deg,
+      transparent 30%,
+      hsl(var(--forensic-accent) / 0.1) 50%,
+      transparent 70%
+    );
+    background-size: 20px 20px;
+    animation: hologram-flicker 3s linear infinite;
+  }
+
+  .matrix-rain {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .matrix-rain::before {
+    content: "";
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      hsl(var(--forensic-accent) / 0.03) 2px,
+      hsl(var(--forensic-accent) / 0.03) 4px
+    );
+    animation: matrix-fall 10s linear infinite;
+  }
+
+  .scan-lines {
+    position: relative;
+  }
+
+  .scan-lines::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      hsl(var(--forensic-accent) / 0.05) 2px,
+      hsl(var(--forensic-accent) / 0.05) 4px
+    );
+    pointer-events: none;
+  }
+
+  .cyber-button {
+    position: relative;
+    background: linear-gradient(
+      45deg,
+      hsl(var(--forensic-dark)) 0%,
+      hsl(var(--forensic-surface)) 50%,
+      hsl(var(--forensic-dark)) 100%
+    );
+    border: 1px solid hsl(var(--forensic-accent) / 0.5);
+    color: hsl(var(--forensic-accent));
+    transition: all 0.3s ease;
+  }
+
+  .cyber-button:hover {
+    background: linear-gradient(
+      45deg,
+      hsl(var(--forensic-accent) / 0.1) 0%,
+      hsl(var(--forensic-accent) / 0.2) 50%,
+      hsl(var(--forensic-accent) / 0.1) 100%
+    );
+    box-shadow:
+      0 0 10px hsl(var(--forensic-accent) / 0.5),
+      inset 0 0 10px hsl(var(--forensic-accent) / 0.1);
+    color: hsl(var(--forensic-text));
+  }
+
+  .data-stream {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .data-stream::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      hsl(var(--forensic-accent) / 0.3),
+      transparent
+    );
+    animation: data-flow 2s ease-in-out infinite;
+  }
+}
+
+@keyframes hologram-flicker {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes matrix-fall {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes data-flow {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes pulse-cyber {
+  0%,
+  100% {
+    box-shadow: 0 0 5px hsl(var(--forensic-accent) / 0.5);
+  }
+  50% {
+    box-shadow:
+      0 0 20px hsl(var(--forensic-accent) / 0.8),
+      0 0 30px hsl(var(--forensic-accent) / 0.6);
+  }
+}
+
+/* Enhanced Logo Animations */
+@keyframes animate-spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-spin-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes animate-pulse-slow {
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes animate-pulse-slower {
+  0%,
+  100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+@keyframes animate-pulse-glow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 8px #4f46e5) drop-shadow(0 0 16px #4f46e5);
+  }
+  50% {
+    filter: drop-shadow(0 0 12px #06b6d4) drop-shadow(0 0 24px #06b6d4);
+  }
+}
+
+@keyframes animate-pulse-node {
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+}
+
+@keyframes animate-pulse-connection {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes animate-pulse-ultra {
+  0%,
+  100% {
+    opacity: 0.05;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.2;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes animate-float-enhanced {
+  0%,
+  100% {
+    transform: translateY(0px) translateX(0px) rotate(0deg);
+    opacity: 0.6;
+  }
+  25% {
+    transform: translateY(-4px) translateX(2px) rotate(90deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-2px) translateX(-2px) rotate(180deg);
+    opacity: 0.8;
+  }
+  75% {
+    transform: translateY(2px) translateX(2px) rotate(270deg);
+    opacity: 1;
+  }
+}
+
+@keyframes animate-slide-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes animate-slide-down {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes animate-scan-vertical {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(400%);
+  }
+}
+
+@keyframes animate-scan-horizontal {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(400%);
+  }
+}
+
+@keyframes animate-gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Apply the new animations */
+.animate-spin-slow {
+  animation: animate-spin-slow 20s linear infinite;
+}
+
+.animate-spin-reverse {
+  animation: animate-spin-reverse 15s linear infinite;
+}
+
+.animate-pulse-slow {
+  animation: animate-pulse-slow 4s ease-in-out infinite;
+}
+
+.animate-pulse-slower {
+  animation: animate-pulse-slower 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: animate-pulse-glow 4s ease-in-out infinite;
+}
+
+.animate-pulse-node {
+  animation: animate-pulse-node 2s ease-in-out infinite;
+}
+
+.animate-pulse-connection {
+  animation: animate-pulse-connection 3s ease-in-out infinite;
+}
+
+.animate-pulse-ultra {
+  animation: animate-pulse-ultra 8s ease-in-out infinite;
+}
+
+.animate-float-enhanced {
+  animation: animate-float-enhanced 4s ease-in-out infinite;
+}
+
+.animate-slide-right {
+  animation: animate-slide-right 8s linear infinite;
+}
+
+.animate-slide-down {
+  animation: animate-slide-down 10s linear infinite;
+}
+
+.animate-scan-vertical {
+  animation: animate-scan-vertical 4s linear infinite;
+}
+
+.animate-scan-horizontal {
+  animation: animate-scan-horizontal 6s linear infinite;
+}
+
+.animate-gradient-shift {
+  animation: animate-gradient-shift 3s ease-in-out infinite;
+}

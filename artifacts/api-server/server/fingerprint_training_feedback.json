@@ -1,0 +1,1274 @@
+[
+  {
+    "id": "fb_1772697652535_rx3fu6",
+    "timestamp": "2026-03-05T08:00:52.537Z",
+    "caseId": "AI-FINGERPRINT-1772697634878",
+    "sourceFileName": "102_2.tif",
+    "predictedPattern": "Radial Loop",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.3,
+      0.5,
+      0.5,
+      0.3333333333333333,
+      0.8,
+      0.6,
+      0.4,
+      1.1444091796875,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 30,
+      "ridge_endings": 18,
+      "bifurcations": 12,
+      "quality_score": 8,
+      "delta_count": 1,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 342,
+          "y": 338
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772697667707_j2ibhr",
+    "timestamp": "2026-03-05T08:01:07.707Z",
+    "caseId": "AI-FINGERPRINT-1772697659472",
+    "sourceFileName": "102_2.tif",
+    "predictedPattern": "Radial Loop",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.3,
+      0.5,
+      0.5,
+      0.3333333333333333,
+      0.8,
+      0.6,
+      0.4,
+      1.1444091796875,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 30,
+      "ridge_endings": 18,
+      "bifurcations": 12,
+      "quality_score": 8,
+      "delta_count": 1,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 158,
+          "y": 334
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772697679723_lbknjv",
+    "timestamp": "2026-03-05T08:01:19.723Z",
+    "caseId": "AI-FINGERPRINT-1772697671438",
+    "sourceFileName": "102_2.tif",
+    "predictedPattern": "Radial Loop",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.3,
+      0.5,
+      0.5,
+      0.3333333333333333,
+      0.8,
+      0.6,
+      0.4,
+      1.1444091796875,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 30,
+      "ridge_endings": 18,
+      "bifurcations": 12,
+      "quality_score": 8,
+      "delta_count": 1,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 158,
+          "y": 347
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772697699786_3dou30",
+    "timestamp": "2026-03-05T08:01:39.786Z",
+    "caseId": "AI-FINGERPRINT-1772697693846",
+    "sourceFileName": "101_7.tif",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.27,
+      0.5,
+      0.5,
+      0,
+      0.7,
+      0.5925925925925926,
+      0.37037037037037035,
+      1.02996826171875,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 27,
+      "ridge_endings": 16,
+      "bifurcations": 10,
+      "quality_score": 7,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1772697703647_0i632f",
+    "timestamp": "2026-03-05T08:01:43.647Z",
+    "caseId": "AI-FINGERPRINT-1772697693846",
+    "sourceFileName": "101_7.tif",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.27,
+      0.5,
+      0.5,
+      0,
+      0.7,
+      0.5925925925925926,
+      0.37037037037037035,
+      1.02996826171875,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 27,
+      "ridge_endings": 16,
+      "bifurcations": 10,
+      "quality_score": 7,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1772697728536_qwq9qy",
+    "timestamp": "2026-03-05T08:02:08.536Z",
+    "caseId": "AI-FINGERPRINT-1772697721435",
+    "sourceFileName": "102_6.tif",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.12,
+      0.5,
+      0.5,
+      0,
+      0.7,
+      0.5833333333333334,
+      0.3333333333333333,
+      0.457763671875,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 12,
+      "ridge_endings": 7,
+      "bifurcations": 4,
+      "quality_score": 7,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1772697757143_vdmjon",
+    "timestamp": "2026-03-05T08:02:37.143Z",
+    "caseId": "AI-FINGERPRINT-1772697746167",
+    "sourceFileName": "102_8.tif",
+    "predictedPattern": "Ulnar Loop",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.3,
+      0.5,
+      0.5,
+      0.3333333333333333,
+      0.8,
+      0.6,
+      0.4,
+      1.1444091796875,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 30,
+      "ridge_endings": 18,
+      "bifurcations": 12,
+      "quality_score": 8,
+      "delta_count": 1,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 160,
+          "y": 329
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772697778512_y0vccb",
+    "timestamp": "2026-03-05T08:02:58.512Z",
+    "caseId": "AI-FINGERPRINT-1772697772769",
+    "sourceFileName": "102_4.tif",
+    "predictedPattern": "Radial Loop",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.2,
+      0.5,
+      0.5,
+      0.3333333333333333,
+      0.6,
+      0.6,
+      0.4,
+      0.762939453125,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 20,
+      "ridge_endings": 12,
+      "bifurcations": 8,
+      "quality_score": 6,
+      "delta_count": 1,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 181,
+          "y": 345
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772697844384_fuckyw",
+    "timestamp": "2026-03-05T08:04:04.384Z",
+    "caseId": "AI-FINGERPRINT-1772697835061",
+    "sourceFileName": "103_6.tif",
+    "predictedPattern": "Ulnar Loop",
+    "correctedPattern": "whorl",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.31,
+      0.5,
+      0.5,
+      0.3333333333333333,
+      0.9,
+      0.5806451612903226,
+      0.3870967741935484,
+      1.18255615234375,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 31,
+      "ridge_endings": 18,
+      "bifurcations": 12,
+      "quality_score": 9,
+      "delta_count": 1,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 174,
+          "y": 342
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772697901192_kgjf8e",
+    "timestamp": "2026-03-05T08:05:01.192Z",
+    "caseId": "AI-FINGERPRINT-1772697886629",
+    "sourceFileName": "105_7.tif",
+    "predictedPattern": "Plain Arch",
+    "correctedPattern": "radial_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.28,
+      0.5,
+      0.5,
+      0,
+      0.6,
+      0.5714285714285714,
+      0.39285714285714285,
+      1.068115234375,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 28,
+      "ridge_endings": 16,
+      "bifurcations": 11,
+      "quality_score": 6,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1772698035549_73zuym",
+    "timestamp": "2026-03-05T08:07:15.549Z",
+    "caseId": "AI-FINGERPRINT-1772698025000",
+    "sourceFileName": "105_2.tif",
+    "predictedPattern": "Plain Arch",
+    "correctedPattern": "radial_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.25,
+      0.5,
+      0.5,
+      0,
+      0.7,
+      0.6,
+      0.4,
+      0.95367431640625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 25,
+      "ridge_endings": 15,
+      "bifurcations": 10,
+      "quality_score": 7,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1772698093851_kyugf7",
+    "timestamp": "2026-03-05T08:08:13.851Z",
+    "caseId": "AI-FINGERPRINT-1772698076000",
+    "sourceFileName": "109_6.tif",
+    "predictedPattern": "Plain Whorl",
+    "correctedPattern": "radial_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.17,
+      0.5,
+      0.5,
+      0.6666666666666666,
+      0.9,
+      0.5882352941176471,
+      0.35294117647058826,
+      0.64849853515625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 17,
+      "ridge_endings": 10,
+      "bifurcations": 6,
+      "quality_score": 9,
+      "delta_count": 2,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 196,
+          "y": 289
+        },
+        {
+          "x": 332,
+          "y": 275
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772698123383_lo3iqm",
+    "timestamp": "2026-03-05T08:08:43.383Z",
+    "caseId": "AI-FINGERPRINT-1772698113012",
+    "sourceFileName": "110_7.tif",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.17,
+      0.5,
+      0.5,
+      0,
+      0.8,
+      0.5882352941176471,
+      0.35294117647058826,
+      0.64849853515625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 17,
+      "ridge_endings": 10,
+      "bifurcations": 6,
+      "quality_score": 8,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1772698157081_nnmvsg",
+    "timestamp": "2026-03-05T08:09:17.081Z",
+    "caseId": "AI-FINGERPRINT-1772698146518",
+    "sourceFileName": "110_8.tif",
+    "predictedPattern": "Plain Whorl",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.12,
+      0.5,
+      0.5,
+      0.6666666666666666,
+      0.8,
+      0.5833333333333334,
+      0.3333333333333333,
+      0.457763671875,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 12,
+      "ridge_endings": 7,
+      "bifurcations": 4,
+      "quality_score": 8,
+      "delta_count": 2,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 198,
+          "y": 268
+        },
+        {
+          "x": 334,
+          "y": 269
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772698262247_pg72xp",
+    "timestamp": "2026-03-05T08:11:02.247Z",
+    "caseId": "AI-FINGERPRINT-1772698252564",
+    "sourceFileName": "101_3.tif",
+    "predictedPattern": "Plain Whorl",
+    "correctedPattern": "plain_arch",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.14,
+      0.5,
+      0.5,
+      0.6666666666666666,
+      0.8,
+      0.5714285714285714,
+      0.35714285714285715,
+      0.5340576171875,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 14,
+      "ridge_endings": 8,
+      "bifurcations": 5,
+      "quality_score": 8,
+      "delta_count": 2,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 192,
+          "y": 292
+        },
+        {
+          "x": 332,
+          "y": 294
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772698284584_dbfafv",
+    "timestamp": "2026-03-05T08:11:24.584Z",
+    "caseId": "AI-FINGERPRINT-1772698276629",
+    "sourceFileName": "101_3.tif",
+    "predictedPattern": "Plain Whorl",
+    "correctedPattern": "plain_arch",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.14,
+      0.5,
+      0.5,
+      0.6666666666666666,
+      0.8,
+      0.5714285714285714,
+      0.35714285714285715,
+      0.5340576171875,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 14,
+      "ridge_endings": 8,
+      "bifurcations": 5,
+      "quality_score": 8,
+      "delta_count": 2,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 197,
+          "y": 300
+        },
+        {
+          "x": 330,
+          "y": 279
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772698315061_83bvlz",
+    "timestamp": "2026-03-05T08:11:55.061Z",
+    "caseId": "AI-FINGERPRINT-1772698299561",
+    "sourceFileName": "101_7.tif",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "plain_arch",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.24,
+      0.5,
+      0.5,
+      0,
+      0.6,
+      0.5833333333333334,
+      0.375,
+      0.91552734375,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 24,
+      "ridge_endings": 14,
+      "bifurcations": 9,
+      "quality_score": 6,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1772698403509_sepuvd",
+    "timestamp": "2026-03-05T08:13:23.509Z",
+    "caseId": "AI-FINGERPRINT-1772698382894",
+    "sourceFileName": "104_4.tif",
+    "predictedPattern": "Plain Whorl",
+    "correctedPattern": "radial_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.33,
+      0.5,
+      0.5,
+      0.6666666666666666,
+      0.8,
+      0.5757575757575758,
+      0.3939393939393939,
+      1.25885009765625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 33,
+      "ridge_endings": 19,
+      "bifurcations": 13,
+      "quality_score": 8,
+      "delta_count": 2,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 187,
+          "y": 298
+        },
+        {
+          "x": 333,
+          "y": 294
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772698455401_e8yc47",
+    "timestamp": "2026-03-05T08:14:15.401Z",
+    "caseId": "AI-FINGERPRINT-1772698421243",
+    "sourceFileName": "110_4.tif",
+    "predictedPattern": "Radial Loop",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "correctionNotes": "it is the ulnar loop",
+    "trainingFeatures": [
+      0.26,
+      0.5,
+      0.5,
+      0.3333333333333333,
+      0.6,
+      0.5769230769230769,
+      0.38461538461538464,
+      0.9918212890625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 26,
+      "ridge_endings": 15,
+      "bifurcations": 10,
+      "quality_score": 6,
+      "delta_count": 1,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 332,
+          "y": 342
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772698488136_x3o4r2",
+    "timestamp": "2026-03-05T08:14:48.136Z",
+    "caseId": "AI-FINGERPRINT-1772698480716",
+    "sourceFileName": "109_5.tif",
+    "predictedPattern": "Plain Whorl",
+    "correctedPattern": "radial_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.26,
+      0.5,
+      0.5,
+      0.6666666666666666,
+      0.8,
+      0.5769230769230769,
+      0.38461538461538464,
+      0.9918212890625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 26,
+      "ridge_endings": 15,
+      "bifurcations": 10,
+      "quality_score": 8,
+      "delta_count": 2,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 183,
+          "y": 301
+        },
+        {
+          "x": 323,
+          "y": 270
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772698521336_qz3nbp",
+    "timestamp": "2026-03-05T08:15:21.336Z",
+    "caseId": "AI-FINGERPRINT-1772698512382",
+    "sourceFileName": "109_2.tif",
+    "predictedPattern": "Ulnar Loop",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.15,
+      0.5,
+      0.5,
+      0.3333333333333333,
+      0.6,
+      0.6,
+      0.4,
+      0.57220458984375,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 15,
+      "ridge_endings": 9,
+      "bifurcations": 6,
+      "quality_score": 6,
+      "delta_count": 1,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 162,
+          "y": 339
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1772698552476_sur2aj",
+    "timestamp": "2026-03-05T08:15:52.476Z",
+    "caseId": "AI-FINGERPRINT-1772698544334",
+    "sourceFileName": "108_7.tif",
+    "predictedPattern": "Radial Loop",
+    "correctedPattern": "whorl",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.3,
+      0.5,
+      0.5,
+      0.3333333333333333,
+      0.6,
+      0.6,
+      0.4,
+      1.1444091796875,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 30,
+      "ridge_endings": 18,
+      "bifurcations": 12,
+      "quality_score": 6,
+      "delta_count": 1,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": [
+        {
+          "x": 156,
+          "y": 334
+        }
+      ]
+    }
+  },
+  {
+    "id": "fb_1774551985745_i7rluf",
+    "timestamp": "2026-03-26T19:06:25.747Z",
+    "caseId": "AI-FINGERPRINT-1774551920209",
+    "sourceFileName": "IMG_0134.jpeg",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "whorl",
+    "confidenceScore": 95,
+    "correctionNotes": "its a plain whorl pattern , with the triangular shap making  delta in  left bottom side",
+    "trainingFeatures": [
+      0.17,
+      0.5,
+      0.5,
+      0,
+      0.7,
+      0.5882352941176471,
+      0.35294117647058826,
+      0.64849853515625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 17,
+      "ridge_endings": 10,
+      "bifurcations": 6,
+      "quality_score": 7,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1774552120740_wqc9aq",
+    "timestamp": "2026-03-26T19:08:40.740Z",
+    "caseId": "AI-FINGERPRINT-1774552110475",
+    "sourceFileName": "6720a88df961262cf849bb30_64081d74439b3943df1b28cb_9)20whorl.jpeg",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "whorl",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.1,
+      0.5,
+      0.5,
+      0,
+      0.9,
+      0.6,
+      0.4,
+      0.3814697265625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 10,
+      "ridge_endings": 6,
+      "bifurcations": 4,
+      "quality_score": 9,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1774552161558_bswo40",
+    "timestamp": "2026-03-26T19:09:21.558Z",
+    "caseId": "AI-FINGERPRINT-1774552148360",
+    "sourceFileName": "6720a88df961262cf849bb30_64081d74439b3943df1b28cb_9)20whorl.jpeg",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "whorl",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.1,
+      0.5,
+      0.5,
+      0,
+      0.9,
+      0.6,
+      0.4,
+      0.3814697265625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 10,
+      "ridge_endings": 6,
+      "bifurcations": 4,
+      "quality_score": 9,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1774552163115_vopqee",
+    "timestamp": "2026-03-26T19:09:23.115Z",
+    "caseId": "AI-FINGERPRINT-1774552148360",
+    "sourceFileName": "6720a88df961262cf849bb30_64081d74439b3943df1b28cb_9)20whorl.jpeg",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "whorl",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.1,
+      0.5,
+      0.5,
+      0,
+      0.9,
+      0.6,
+      0.4,
+      0.3814697265625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 10,
+      "ridge_endings": 6,
+      "bifurcations": 4,
+      "quality_score": 9,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1774552163513_e8bk1j",
+    "timestamp": "2026-03-26T19:09:23.513Z",
+    "caseId": "AI-FINGERPRINT-1774552148360",
+    "sourceFileName": "6720a88df961262cf849bb30_64081d74439b3943df1b28cb_9)20whorl.jpeg",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "whorl",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.1,
+      0.5,
+      0.5,
+      0,
+      0.9,
+      0.6,
+      0.4,
+      0.3814697265625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 10,
+      "ridge_endings": 6,
+      "bifurcations": 4,
+      "quality_score": 9,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1774552163853_0yqu39",
+    "timestamp": "2026-03-26T19:09:23.853Z",
+    "caseId": "AI-FINGERPRINT-1774552148360",
+    "sourceFileName": "6720a88df961262cf849bb30_64081d74439b3943df1b28cb_9)20whorl.jpeg",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "whorl",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.1,
+      0.5,
+      0.5,
+      0,
+      0.9,
+      0.6,
+      0.4,
+      0.3814697265625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 10,
+      "ridge_endings": 6,
+      "bifurcations": 4,
+      "quality_score": 9,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1774552164253_fzms8e",
+    "timestamp": "2026-03-26T19:09:24.253Z",
+    "caseId": "AI-FINGERPRINT-1774552148360",
+    "sourceFileName": "6720a88df961262cf849bb30_64081d74439b3943df1b28cb_9)20whorl.jpeg",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "whorl",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.1,
+      0.5,
+      0.5,
+      0,
+      0.9,
+      0.6,
+      0.4,
+      0.3814697265625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 10,
+      "ridge_endings": 6,
+      "bifurcations": 4,
+      "quality_score": 9,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1774552164820_t7qy45",
+    "timestamp": "2026-03-26T19:09:24.820Z",
+    "caseId": "AI-FINGERPRINT-1774552148360",
+    "sourceFileName": "6720a88df961262cf849bb30_64081d74439b3943df1b28cb_9)20whorl.jpeg",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "whorl",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.1,
+      0.5,
+      0.5,
+      0,
+      0.9,
+      0.6,
+      0.4,
+      0.3814697265625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 10,
+      "ridge_endings": 6,
+      "bifurcations": 4,
+      "quality_score": 9,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1774697718770_q9yrgf",
+    "timestamp": "2026-03-28T11:35:18.770Z",
+    "caseId": "AI-FINGERPRINT-1774697604126",
+    "sourceFileName": "6720a88df961262cf849bb30_64081d74439b3943df1b28cb_9)20whorl.jpeg",
+    "predictedPattern": "Tented Arch",
+    "correctedPattern": "whorl",
+    "confidenceScore": 95,
+    "correctionNotes": "look at the core of the print its round and there are two deltas one in the right and one in left",
+    "trainingFeatures": [
+      0.1,
+      0.5,
+      0.5,
+      0,
+      0.9,
+      0.6,
+      0.4,
+      0.3814697265625,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 10,
+      "ridge_endings": 6,
+      "bifurcations": 4,
+      "quality_score": 9,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1774698108804_e2pd2o",
+    "timestamp": "2026-03-28T11:41:48.805Z",
+    "caseId": "AI-FINGERPRINT-1774698050361",
+    "sourceFileName": "105_7.tif",
+    "predictedPattern": "Plain Arch",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "correctionNotes": "the core ridge is starting from the side of the ulnar bone and the while creating a loop its ending on the same side",
+    "trainingFeatures": [
+      0.28,
+      0.5,
+      0.5,
+      0,
+      0.6,
+      0.5714285714285714,
+      0.39285714285714285,
+      1.068115234375,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 28,
+      "ridge_endings": 16,
+      "bifurcations": 11,
+      "quality_score": 6,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1774698112875_ljjgv7",
+    "timestamp": "2026-03-28T11:41:52.875Z",
+    "caseId": "AI-FINGERPRINT-1774698050361",
+    "sourceFileName": "105_7.tif",
+    "predictedPattern": "Plain Arch",
+    "correctedPattern": "ulnar_loop",
+    "confidenceScore": 95,
+    "correctionNotes": "the core ridge is starting from the side of the ulnar bone and the while creating a loop its ending on the same side",
+    "trainingFeatures": [
+      0.28,
+      0.5,
+      0.5,
+      0,
+      0.6,
+      0.5714285714285714,
+      0.39285714285714285,
+      1.068115234375,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 28,
+      "ridge_endings": 16,
+      "bifurcations": 11,
+      "quality_score": 6,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1774698158704_aaupfd",
+    "timestamp": "2026-03-28T11:42:38.704Z",
+    "caseId": "AI-FINGERPRINT-1774698145662",
+    "sourceFileName": "106_2.tif",
+    "predictedPattern": "Plain Arch",
+    "correctedPattern": "whorl",
+    "confidenceScore": 95,
+    "trainingFeatures": [
+      0.11,
+      0.5,
+      0.5,
+      0,
+      0.7,
+      0.5454545454545454,
+      0.36363636363636365,
+      0.41961669921875,
+      0,
+      0,
+      0
+    ],
+    "analysisSnapshot": {
+      "minutiae_count": 11,
+      "ridge_endings": 6,
+      "bifurcations": 4,
+      "quality_score": 7,
+      "delta_count": 0,
+      "core_position": {
+        "x": 256,
+        "y": 256
+      },
+      "delta_positions": []
+    }
+  },
+  {
+    "id": "fb_1777237745145_p1j2mt",
+    "timestamp": "2026-04-26T21:09:05.145Z",
+    "predictedPattern": "whorl",
+    "correctedPattern": "loop"
+  },
+  {
+    "id": "fb_1777237750946_e9vm4l",
+    "timestamp": "2026-04-26T21:09:10.946Z",
+    "predictedPattern": "whorl",
+    "correctedPattern": "loop"
+  }
+]
