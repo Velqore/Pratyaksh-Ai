@@ -31,6 +31,37 @@ These credentials are visible to anyone who can read the repository. You have ex
 - Any feature that depends on persistent writes to the function's local filesystem (for example, the fingerprint training pipeline, which writes `fingerprint_model.json` and training logs under `artifacts/api-server/server/`) will not survive across invocations on Vercel. Reads of files bundled at build time still work — only runtime writes are ephemeral.
 - The OTP / login email flow does not write to disk and works end-to-end on Vercel using the baked-in SMTP credentials.
 
+---
+
+## 📜 License
+
+> **⚠️ PROPRIETARY — ALL RIGHTS RESERVED**
+
+This project is **NOT open source**. It is protected under a **Proprietary License** owned exclusively by **Ayush Tyagi (Velqore)**.
+
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](./LICENSE)
+
+### ❌ You MAY NOT:
+
+| Action | Status |
+|---|---|
+| Use, copy, execute, or deploy this software | 🚫 Prohibited |
+| Modify, adapt, or create derivative works | 🚫 Prohibited |
+| Sell, sublicense, rent, or distribute | 🚫 Prohibited |
+| Reverse engineer or decompile the source code | 🚫 Prohibited |
+
+> **All use requires prior written consent from Ayush Tyagi (Velqore).**
+
+This software, including all source code, documentation, and associated files, is the exclusive proprietary property of **Ayush Tyagi (Velqore)** and is protected by copyright law, patent law, and applicable Indian and international intellectual property laws, including the **Indian Copyright Act, 1957**, the **Indian Patents Act, 1970**, and the **TRIPS Agreement**.
+
+**Patent Notice:** This software and its underlying methods, systems, and processes may be protected by one or more patents or pending patent applications filed under the Indian Patents Act, 1970.
+
+📄 Read the full license: **[LICENSE](./LICENSE)**
+
+📬 For licensing inquiries or permission requests, contact **Ayush Tyagi (Velqore)** via the [official repository](https://github.com/Velqore/Pratyaksh-Ai).
+
+---
+
 ## Local development
 
 Local Replit development is unchanged. The artifact workflows (`artifacts/api-server`, `artifacts/pratyaksh`) continue to read `PORT` and `BASE_PATH` from the environment as before. The `vercel.json` and `api/` entrypoint only affect Vercel deployments.
