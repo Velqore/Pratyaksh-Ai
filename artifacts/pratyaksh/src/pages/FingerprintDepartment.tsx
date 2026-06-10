@@ -138,7 +138,7 @@ export default function FingerprintDepartment() {
       const result = await aiForensicService.analyzeWithAI({
         type: "fingerprint",
         file: uploadedFile,
-        context: `Professional AFIS analysis of ${uploadedFile.name} using enhanced pattern recognition`,
+        context: `Professional Fingerprint analysis of ${uploadedFile.name} using enhanced pattern recognition`,
       });
 
       // Complete the progress
@@ -198,7 +198,7 @@ export default function FingerprintDepartment() {
         accent="fingerprint"
         Icon={Fingerprint}
         title="Fingerprint Lab"
-        subtitle="AFIS Analysis System"
+        subtitle="Fingerprint Analysis System"
         accuracyLabel="91.2% Accuracy"
         maxWidth="6xl"
       />
@@ -284,7 +284,7 @@ export default function FingerprintDepartment() {
                       ) : (
                         <>
                           <ScanLine className="w-4 h-4 mr-2" />
-                          Start AFIS Analysis
+                          Fingerprint AFIS Analysis
                         </>
                       )}
                     </Button>
