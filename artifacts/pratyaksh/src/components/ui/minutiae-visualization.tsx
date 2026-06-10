@@ -10,7 +10,6 @@ import {
   Download,
   Eye,
   Target,
-  Search,
 } from "lucide-react";
 
 interface MinutiaePoint {
@@ -45,154 +44,174 @@ export function MinutiaeVisualization({
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Color scheme for different minutiae types
-  const minutiaeColors = {
-    ridge_ending: "#00ffff", // Cyan
-    bifurcation: "#ff0080", // Hot pink
-    dot: "#ffff00", // Yellow
-    island: "#00ff00", // Green
-    bridge: "#ff8000", // Orange
-    spur: "#8000ff", // Purple
-    crossover: "#ff4000", // Red-orange
-    trifurcation: "#0080ff", // Blue
+  // Natural image dimensions — resolved once when the image loads.
+  // All coordinate math uses these so points land on the correct pixels
+  // regardless of how the canvas is sized or scaled.
+  const naturalDimsRef = useRef<{ w: number; h: number } | null>(null);
+
+  const minutiaeColors: Record<string, string> = {
+    ridge_ending: "#00ffff",
+    bifurcation: "#ff0080",
+    dot: "#ffff00",
+    island: "#00ff00",
+    bridge: "#ff8000",
+    spur: "#8000ff",
+    crossover: "#ff4000",
+    trifurcation: "#0080ff",
   };
 
   useEffect(() => {
     drawFingerprint();
   }, [zoom, showLabels, selectedPoint, activeView, minutiaePoints]);
 
+  /**
+   * Detect whether the AI returned coordinates in pixel space or 0-1
+   * normalised space. We assume normalised when every value is ≤ 1.
+   */
+  const isNormalized = (points: MinutiaePoint[]): boolean => {
+    if (points.length === 0) return false;
+    return points.every((p) => p.x <= 1 && p.y <= 1);
+  };
+
   const drawFingerprint = () => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
     const img = new Image();
     img.onload = () => {
-      // Set canvas size
+      // Store natural dims once
+      naturalDimsRef.current = { w: img.naturalWidth, h: img.naturalHeight };
+
+      // Size the canvas to fill its container, preserving aspect ratio
       const containerWidth = containerRef.current?.clientWidth || 600;
-      const aspectRatio = img.height / img.width;
+      const aspectRatio = img.naturalHeight / img.naturalWidth;
       canvas.width = containerWidth;
       canvas.height = containerWidth * aspectRatio;
 
-      // Clear canvas
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-      // Draw fingerprint image
       ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
-      // Apply zoom and translation
       ctx.save();
       ctx.scale(zoom, zoom);
 
-      // Draw core position
-      if (corePosition) {
-        const coreX = ((corePosition.x / 512) * canvas.width) / zoom;
-        const coreY = ((corePosition.y / 512) * canvas.height) / zoom;
+      const cw = canvas.width / zoom;
+      const ch = canvas.height / zoom;
+      const natW = img.naturalWidth;
+      const natH = img.naturalHeight;
 
+      /**
+       * Map a single point's (px, py) from AI-space → canvas-space.
+       *
+       * Three cases handled:
+       *   1. Normalised (0–1): multiply by canvas dimensions directly.
+       *   2. Pixel coords matching natural image size: scale by canvas/natural.
+       *   3. Fallback — treat as normalised.
+       */
+      const toCanvas = (px: number, py: number): [number, number] => {
+        const normalized = isNormalized(minutiaePoints);
+        if (normalized) {
+          return [px * cw, py * ch];
+        }
+        // Pixel space — scale from natural image size to display canvas size
+        return [(px / natW) * cw, (py / natH) * ch];
+      };
+
+      // ── Core ────────────────────────────────────────────────────────────
+      if (corePosition) {
+        const [cx, cy] = toCanvas(corePosition.x, corePosition.y);
         ctx.strokeStyle = "#00ff00";
         ctx.lineWidth = 3;
         ctx.beginPath();
-        ctx.arc(coreX, coreY, 15, 0, Math.PI * 2);
+        ctx.arc(cx, cy, 15, 0, Math.PI * 2);
         ctx.stroke();
-
-        // Core label
         if (showLabels) {
           ctx.fillStyle = "#00ff00";
           ctx.font = "bold 12px Arial";
-          ctx.fillText("CORE", coreX + 20, coreY - 5);
+          ctx.fillText("CORE", cx + 20, cy - 5);
         }
       }
 
-      // Draw delta positions
+      // ── Deltas ──────────────────────────────────────────────────────────
       deltaPositions.forEach((delta, index) => {
-        const deltaX = ((delta.x / 512) * canvas.width) / zoom;
-        const deltaY = ((delta.y / 512) * canvas.height) / zoom;
-
+        const [dx, dy] = toCanvas(delta.x, delta.y);
         ctx.strokeStyle = "#ff4000";
         ctx.lineWidth = 3;
         ctx.beginPath();
-        ctx.moveTo(deltaX - 10, deltaY - 10);
-        ctx.lineTo(deltaX + 10, deltaY + 10);
-        ctx.moveTo(deltaX - 10, deltaY + 10);
-        ctx.lineTo(deltaX + 10, deltaY - 10);
+        ctx.moveTo(dx - 10, dy - 10);
+        ctx.lineTo(dx + 10, dy + 10);
+        ctx.moveTo(dx - 10, dy + 10);
+        ctx.lineTo(dx + 10, dy - 10);
         ctx.stroke();
-
         if (showLabels) {
           ctx.fillStyle = "#ff4000";
           ctx.font = "bold 12px Arial";
-          ctx.fillText(`DELTA ${index + 1}`, deltaX + 15, deltaY - 5);
+          ctx.fillText(`DELTA ${index + 1}`, dx + 15, dy - 5);
         }
       });
 
-      // Draw minutiae points
-      minutiaePoints.forEach((point, index) => {
+      // ── Minutiae points ─────────────────────────────────────────────────
+      minutiaePoints.forEach((point) => {
         if (activeView !== "all" && point.type !== activeView) return;
 
-        const x = ((point.x / 512) * canvas.width) / zoom;
-        const y = ((point.y / 512) * canvas.height) / zoom;
-        const color =
-          minutiaeColors[point.type as keyof typeof minutiaeColors] ||
-          "#ffffff";
+        const [px, py] = toCanvas(point.x, point.y);
+        const color = minutiaeColors[point.type] || "#ffffff";
 
-        // Highlight selected point
+        // Highlight ring for selected point
         if (selectedPoint === point.id) {
           ctx.strokeStyle = "#ffffff";
           ctx.lineWidth = 4;
           ctx.beginPath();
-          ctx.arc(x, y, 12, 0, Math.PI * 2);
+          ctx.arc(px, py, 12, 0, Math.PI * 2);
           ctx.stroke();
         }
 
-        // Draw minutiae point
+        // Point circle
         ctx.fillStyle = color;
         ctx.strokeStyle = "#000000";
         ctx.lineWidth = 2;
         ctx.beginPath();
-        ctx.arc(x, y, 6, 0, Math.PI * 2);
+        ctx.arc(px, py, 6, 0, Math.PI * 2);
         ctx.fill();
         ctx.stroke();
 
-        // Draw direction line for ridge endings and bifurcations
+        // Direction line + arrowhead for ridge endings / bifurcations
         if (point.type === "ridge_ending" || point.type === "bifurcation") {
-          const length = 15;
-          const endX = x + Math.cos(point.angle) * length;
-          const endY = y + Math.sin(point.angle) * length;
+          const len = 15;
+          const ex = px + Math.cos(point.angle) * len;
+          const ey = py + Math.sin(point.angle) * len;
+          const as = 5;
 
           ctx.strokeStyle = color;
           ctx.lineWidth = 2;
           ctx.beginPath();
-          ctx.moveTo(x, y);
-          ctx.lineTo(endX, endY);
+          ctx.moveTo(px, py);
+          ctx.lineTo(ex, ey);
           ctx.stroke();
 
-          // Arrow head
-          const arrowSize = 5;
           ctx.beginPath();
-          ctx.moveTo(endX, endY);
+          ctx.moveTo(ex, ey);
           ctx.lineTo(
-            endX - arrowSize * Math.cos(point.angle - Math.PI / 6),
-            endY - arrowSize * Math.sin(point.angle - Math.PI / 6),
+            ex - as * Math.cos(point.angle - Math.PI / 6),
+            ey - as * Math.sin(point.angle - Math.PI / 6),
           );
-          ctx.moveTo(endX, endY);
+          ctx.moveTo(ex, ey);
           ctx.lineTo(
-            endX - arrowSize * Math.cos(point.angle + Math.PI / 6),
-            endY - arrowSize * Math.sin(point.angle + Math.PI / 6),
+            ex - as * Math.cos(point.angle + Math.PI / 6),
+            ey - as * Math.sin(point.angle + Math.PI / 6),
           );
           ctx.stroke();
         }
 
-        // Draw labels
+        // Label
         if (showLabels) {
-          ctx.fillStyle = "#ffffff";
+          ctx.font = "bold 10px Arial";
           ctx.strokeStyle = "#000000";
           ctx.lineWidth = 1;
-          ctx.font = "bold 10px Arial";
-
-          const label = `${point.id}`;
-          ctx.strokeText(label, x + 10, y - 10);
-          ctx.fillText(label, x + 10, y - 10);
+          ctx.strokeText(`${point.id}`, px + 10, py - 10);
+          ctx.fillStyle = "#ffffff";
+          ctx.fillText(`${point.id}`, px + 10, py - 10);
         }
       });
 
@@ -206,30 +225,39 @@ export function MinutiaeVisualization({
     if (!canvas) return;
 
     const rect = canvas.getBoundingClientRect();
-    const x = ((event.clientX - rect.left) / canvas.width) * 512;
-    const y = ((event.clientY - rect.top) / canvas.height) * 512;
+    const clickX = event.clientX - rect.left;
+    const clickY = event.clientY - rect.top;
 
-    // Find closest minutiae point
-    let closestPoint = null;
-    let minDistance = Infinity;
+    // Convert click back to AI coordinate space for hit-testing
+    const natW = naturalDimsRef.current?.w ?? canvas.width;
+    const natH = naturalDimsRef.current?.h ?? canvas.height;
+    const normalized = isNormalized(minutiaePoints);
 
-    minutiaePoints.forEach((point) => {
-      const distance = Math.sqrt(
-        Math.pow(point.x - x, 2) + Math.pow(point.y - y, 2),
-      );
-      if (distance < minDistance && distance < 30) {
-        minDistance = distance;
-        closestPoint = point.id;
+    const toAI = (cx: number, cy: number): [number, number] => {
+      if (normalized) return [cx / canvas.width, cy / canvas.height];
+      return [(cx / canvas.width) * natW, (cy / canvas.height) * natH];
+    };
+
+    const [ax, ay] = toAI(clickX, clickY);
+    const threshold = normalized ? 0.03 : (natW / canvas.width) * 20;
+
+    let closestId: number | null = null;
+    let minDist = Infinity;
+
+    minutiaePoints.forEach((p) => {
+      const d = Math.hypot(p.x - ax, p.y - ay);
+      if (d < minDist && d < threshold) {
+        minDist = d;
+        closestId = p.id;
       }
     });
 
-    setSelectedPoint(closestPoint);
+    setSelectedPoint(closestId);
   };
 
   const exportImage = () => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-
     const link = document.createElement("a");
     link.download = `minutiae-analysis-${Date.now()}.png`;
     link.href = canvas.toDataURL();
@@ -302,9 +330,7 @@ export function MinutiaeVisualization({
           <Badge className="bg-cyan-600/20 text-cyan-300">
             {minutiaePoints.length} Total Points
           </Badge>
-          <Badge className="bg-green-600/20 text-green-300">
-            {patternType}
-          </Badge>
+          <Badge className="bg-green-600/20 text-green-300">{patternType}</Badge>
         </div>
       </div>
 
@@ -348,7 +374,6 @@ export function MinutiaeVisualization({
 
         {/* Details Panel */}
         <div className="space-y-4">
-          {/* Selected Point Details */}
           {selectedPoint !== null && (
             <Card className="bg-gray-900 border-gray-700">
               <CardHeader>
@@ -362,7 +387,6 @@ export function MinutiaeVisualization({
                     (p) => p.id === selectedPoint,
                   );
                   if (!point) return null;
-
                   return (
                     <div className="space-y-2 text-sm">
                       <div className="flex justify-between">
@@ -387,10 +411,7 @@ export function MinutiaeVisualization({
                         <div
                           className="w-4 h-4 rounded-full border-2 border-gray-600"
                           style={{
-                            backgroundColor:
-                              minutiaeColors[
-                                point.type as keyof typeof minutiaeColors
-                              ],
+                            backgroundColor: minutiaeColors[point.type],
                           }}
                         />
                       </div>
@@ -409,15 +430,15 @@ export function MinutiaeVisualization({
             <CardContent>
               <div className="space-y-2 text-sm">
                 <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-cyan-400"></div>
+                  <div className="w-3 h-3 rounded-full bg-cyan-400" />
                   <span className="text-gray-300">Ridge Ending</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-pink-400"></div>
+                  <div className="w-3 h-3 rounded-full bg-pink-400" />
                   <span className="text-gray-300">Bifurcation</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full border-2 border-green-400"></div>
+                  <div className="w-3 h-3 rounded-full border-2 border-green-400" />
                   <span className="text-gray-300">Core Point</span>
                 </div>
                 <div className="flex items-center gap-2">
