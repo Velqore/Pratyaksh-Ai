@@ -7,6 +7,7 @@ import { Progress } from "@/components/ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
+import { generatePDFReport, fileToEvidenceImage } from "@/lib/pdf-report-generator";
 import { evidenceApi, type EvidenceAnalysisResult } from "@/lib/evidenceApi";
 import { aiForensicService } from "@/lib/ai-service";
 import { fingerprintReportGenerator } from "@/lib/fingerprint-report";
@@ -180,6 +181,51 @@ export default function FingerprintDepartment() {
         analysisResult,
         caseId,
       );
+       const exportReport = async (m: FingerprintMode) => {
+    try {
+      let id = caseId;
+      if (!id) {
+        id = `CYB-${Date.now().toString(36).toUpperCase()}`;
+        setCaseId(id);
+      }
+      // Combine static + every mode result currently in memory.
+      const allModeResults: CaseModeResult[] = (
+        Object.values(modeResults) as Array<CaseModeResult | undefined>
+      )
+        .filter((r): r is CaseModeResult => Boolean(r))
+        .map((r) => sanitizeForCase(r));
+      const f = m === "static" ? uploadedFile : modeFiles[m] ?? uploadedFile;
+      const evidenceImage = await fileToEvidenceImage(f);
+      const reportBlob = await geratePDFReport({
+        caseId: id,
+        analysisResult:
+          analysisResult ?? {
+            confidence_score: undefined,
+            evidence_found: [],
+            recommendations: [],
+            analysis_steps: [],
+          },
+        FingerprintFeatures: {
+          ...(FingerprintFeatures ?? {}),
+          modeResults: allModeResults,
+        },
+        reportType: "Fingerprint",
+        evidenceImage,
+      });
+      const url = URL.createObjectURL(reportBlob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `Pratyaksh-Fingerprint-Report-${id}.pdf`;
+      link.click();
+      URL.revokeObjectURL(url);
+      toast.success(`PDF report exported (${id})`);
+    } catch (error) {
+      console.error("Report generation failed:", error);
+      toast.error("Failed to generate report. Please try again.");
+    }
+  };
+
+  const generateFingerpintReport = () => exportReport("static");
 
       // Create download link
       const link = document.createElement("a");
@@ -189,7 +235,7 @@ export default function FingerprintDepartment() {
     } catch (error) {
       console.error("Report generation failed:", error);
       toast.error("Failed to generate report. Please try again.");
-    }
+    } 
   };
 
   return (
@@ -741,7 +787,10 @@ export default function FingerprintDepartment() {
                       <Download className="w-4 h-4 mr-2" />
                       Generate Labeled Report
                     </Button>
-                    <Button className="bg-forensic-primary hover:bg-forensic-primary/90 text-white">
+                    <Button
+                      className="bg-forensic-primary hover:bg-forensic-primary/90 text-white"
+                      onClick={() => generateFingerpintReport()}
+                      >
                       <Download className="w-4 h-4 mr-2" />
                       Export Analysis
                     </Button>
